@@ -1,0 +1,11 @@
+## YAML Template.
+---
+spring:
+    application:
+        name: MicroserviceUdemyEurekaClientDemo
+server:
+    port: 8081
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8090/
